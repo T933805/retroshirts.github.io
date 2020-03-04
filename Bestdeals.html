@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="mystyle.css">
+<link rel="stylesheet" href="addtocart.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+
+<div class="header">
+  <ul>
+    <a class="" href="javascript:void(0)">Help</a>&nbsp;&nbsp;&nbsp;
+    <a href="javascript:void(0)">Sell Shirts</a>&nbsp;&nbsp;&nbsp;
+    <a href="javascript:void(0)">Clearance</a>&nbsp;&nbsp;&nbsp;
+    <div class="searchBar">
+          <input type="search" name="search" placeholder="Search Products" value=""> <a href="#"><i class="fa fa-search"></i></a> <a href="#"><i class="fa fa-image"></i></a>
+        </div>
+        <div class="otherB">
+          <a href="shoppingcart.html"><i class="fa fa-shopping-cart"></i></a> <a href="login.html"><i class="fa fa-user"></i></a>
+           <a href="#"><i class="fa fa-instagram"></i></a> <a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-snapchat-ghost"></i></a>
+
+        </div>
+  </ul>
+
+  <!-- <ul>
+    <button href="javascript:void(0)"> <img class="instagram" src="instagram.png" alt=""></button>&nbsp;&nbsp;&nbsp;
+    <button href="javascript:void(0)">Twitter</button>&nbsp;&nbsp;&nbsp;
+    <button href="javascript:void(0)">Snapchat</button>&nbsp;&nbsp;&nbsp;
+  </ul> -->
+</div>
+
+<div id="navbar">
+
+<a href="index.html"><img src="retro shirts logo.png" alt=""></a>
+  <a class="active" href="">Home</a>
+  <a href="javascript:void(0)">Clubs</a>
+  <a href="javascript:void(0)">Natinol</a>
+  <a href="javascript:void(0)">Clearance</a>
+  <a href="javascript:void(0)">Heroes</a>
+  <a href="javascript:void(0)">Match Worn</a>
+  <a href="javascript:void(0)">About Us</a>
+  <a href="javascript:void(0)">Special</a>
+  <a href="javascript:void(0)">New In</a>
+</div>
+<div class="title">
+  Shopping Bag
+  <!DOCTYPE html>
+  <html>
+  <head>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+  <style>
+  body{
+      margin-top:20px;
+      background:#eee;
+  }
+
+  .prod-info-main {
+      border: 1px solid #00B050;
+      margin-bottom: 20px;
+      margin-top: 10px;
+      background: #fff;
+      padding: 6px;
+      -webkit-box-shadow: 0 1px 4px 0 rgba(21,180,255,0.5
+
+
+
+        );
+      box-shadow: 0 1px 1px 0 rgba(21,180,255,0.5);
+  }
+
+  .prod-info-main .product-image {
+
+
+
+
+      background-color: #EBF8FE;
+      display: block;
+      min-height: 238px;
+      overflow: hidden;
+      position: relative;
+      border: 1px solid #CEEFFF;
+      padding-top: 40px;
+  }
+
+  .prod-info-main .product-deatil {
+      border-bottom: 1px solid #00B050;
+    }
+      padding-bottom: 17px;
+      padding-left: 16px;
+      padding-top: 16px;
+      position: relative;
+      background: #fff
+  }
+
+  .product-content .product-deatil h5 a {
+      color: #2f383d;
+      font-size: 15px;
+      line-height: 19px;
+      text-decoration: none;
+      padding-left: 0;
+      margin-left: 0
+  }
+
+  .prod-info-main .product-deatil h5 a span {
+      color: #9aa7af;
+      display: block;
+      font-size: 13px
+  }
+
+  .prod-info-main .product-deatil span.tag1 {
+      border-radius: 50%;
+      color: #fff;
+      font-size: 15px;
+      height: 50px;
+      padding: 13px 0;
+      position: absolute;
+      right: 10px;
+      text-align: center;
+      top: 10px;
+      width: 50px
+  }
+
+  .prod-info-main .product-deatil span.sale {
+      background-color: #21c2f8
+  }
+
+  .prod-info-main .product-deatil span.discount {
+      background-color: #71e134
+  }
+
+  .prod-info-main .product-deatil span.hot {
+      background-color: #fa9442
+  }
+
+  .prod-info-main .description {
+      font-size: 12.5px;
+      line-height: 20px;
+      padding: 10px 14px 16px 19px;
+      background: #fff
+  }
+
+  .prod-info-main .product-info {
+      padding: 11px 19px 10px 20px
+  }
+
+  .prod-info-main .product-info a.add-to-cart {
+      color: #2f383d;
+      font-size: 13px;
+      padding-left: 16px
+  }
+
+  .prod-info-main name.a {
+      padding: 5px 10px;
+      margin-left: 16px
+  }
+
+  .product-info.smart-form .btn {
+      padding: 6px 12px;
+      margin-left: 12px;
+      margin-top: -10px
+  }
+
+  .load-more-btn {
+      background-color: #21c2f8;
+      border-bottom: 2px solid #037ca5;
+      border-radius: 2px;
+      border-top: 2px solid #0cf;
+      margin-top: 20px;
+      padding: 9px 0;
+      width: 100%
+  }
+
+  .product-block .product-deatil p.price-container span,
+  .prod-info-main .product-deatil p.price-container span,
+  .shipping table tbody tr td p.price-container span,
+  .shopping-items table tbody tr td p.price-container span {
+      color: #00B050;
+      font-family: Lato, sans-serif;
+      font-size: 24px;
+      line-height: 20px
+  }
+
+  .product-info.smart-form .rating label {
+      margin-top:15px;
+
+  }
+
+  .prod-wrap .product-image span.tag2 {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      padding: 10px 0;
+      color: #fff;
+      font-size: 11px;
+      text-align: center
+  }
+
+  .prod-wrap .product-image span.tag3 {
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      width: 60px;
+      height: 36px;
+      border-radius: 50%;
+      padding: 10px 0;
+      color: #fff;
+      font-size: 11px;
+      text-align: center
+  }
+
+  .prod-wrap .product-image span.sale {
+      background-color: #57889c;
+  }
+
+  .prod-wrap .product-image span.hot {
+      background-color: #a90329;
+  }
+
+  .prod-wrap .product-image span.special {
+      background-color: #3B6764;
+  }
+  .shop-btn {
+      position: relative
+  }
+
+  .shop-btn>span {
+      background: #a90329;
+      display: inline-block;
+      font-size: 10px;
+      box-shadow: inset 1px 1px 0 rgba(0, 0, 0, .1), inset 0 -1px 0 rgba(0, 0, 0, .07);
+      font-weight: 700;
+      border-radius: 50%;
+      padding: 2px 4px 3px!important;
+      text-align: center;
+      line-height: normal;
+      width: 19px;
+      top: -7px;
+      left: -7px
+  }
+
+  .product-deatil hr {
+      padding: 0 0 5px!important
+  }
+
+  .product-deatil .glyphicon {
+      color: #3276b1
+  }
+
+  .product-deatil .product-image {
+      border-right: 0px solid #fff !important
+  }
+
+  .product-deatil .name {
+      margin-top: 0;
+      margin-bottom: 0
+  }
+
+  .product-deatil .name small {
+      display: block
+  }
+
+  .product-deatil .name a {
+      margin-left: 0
+  }
+
+  .product-deatil .price-container {
+      font-size: 24px;
+      margin: 0;
+      font-weight: 300;
+
+  }
+
+  .product-deatil .price-container small {
+      font-size: 12px;
+
+  }
+
+  .product-deatil .fa-2x {
+      font-size: 16px!important
+  }
+
+  .product-deatil .fa-2x>h5 {
+      font-size: 12px;
+      margin: 0
+  }
+
+  .product-deatil .fa-2x+a,
+  .product-deatil .fa-2x+a+a {
+      font-size: 13px
+  }
+
+  .product-deatil .certified {
+      margin-top: 10px
+  }
+
+  .product-deatil .certified ul {
+      padding-left: 0
+  }
+
+  .product-deatil .certified ul li:not(first-child) {
+      margin-left: -3px
+  }
+
+  .product-deatil .certified ul li {
+      display: inline-block;
+      background-color: #f9f9f9;
+      padding: 13px 19px
+  }
+
+  .product-deatil .certified ul li:first-child {
+      border-right: none
+  }
+
+  .product-deatil .certified ul li a {
+      text-align: left;
+      font-size: 12px;
+      color: #6d7a83;
+      line-height: 16px;
+      text-decoration: none
+  }
+
+  .product-deatil .certified ul li a span {
+      display: block;
+      color: #21c2f8;
+      font-size: 13px;
+      font-weight: 700;
+      text-align: center
+  }
+
+  .product-deatil .message-text {
+      width: calc(100% - 70px)
+  }
+
+  @media only screen and (min-width:1024px) {
+      .prod-info-main div[class*=col-md-4] {
+          padding-right: 0
+      }
+      .prod-info-main div[class*=col-md-8] {
+          padding: 0 13px 0 0
+      }
+      .prod-wrap div[class*=col-md-5] {
+          padding-right: 0
+      }
+      .prod-wrap div[class*=col-md-7] {
+          padding: 0 13px 0 0
+      }
+      .prod-info-main .product-image {
+          border-right: 1px solid #dfe5e9
+      }
+      .prod-info-main .product-info {
+          position: relative
+      }
+  }
+  </style>
+
+  </head>
+
+  <body>
+  <div class="container">
+  <div class="col-xs-12 col-md-6">
+  	<!-- First product box start here-->
+  	<div class="prod-info-main prod-wrap clearfix">
+  		<div class="row">
+  				<div class="col-md-5 col-sm-12 col-xs-12">
+  					<div class="product-image">
+  						<img src="city.jpg" class="img-responsive">
+  						<span class="tag2 hot">
+  							HOT
+  						</span>
+  					</div>
+  				</div>
+  				<div class="col-md-7 col-sm-12 col-xs-12">
+  				<div class="product-deatil">
+  						<h5 class="name">
+  							<a href="#">
+  								1995-97 Manchester City Home Shirt
+  							</a>
+  							<a href="#">
+  								<span>Football</span>
+  							</a>
+
+  						</h5>
+  						<p class="price-container">
+  							<span>£79.99</span>
+  						</p>
+  						<span class="tag1"></span>
+  				</div>
+  				<div class="description">
+  					<p>A Short product description here </p>
+  				</div>
+  				<div class="product-info smart-form">
+  					<div class="row">
+  						<div class="col-md-12">
+  							 <a href="#0" class="cd-add-to-cart js-cd-add-to-cart" data-price="25.99">Add To Cart</a>
+
+  						</div>
+  						<div class="col-md-12">
+  							<div class="rating">Rating:
+  								<label for="stars-rating-5"><i class="fa fa-star text-success"></i></label>
+  								<label for="stars-rating-4"><i class="fa fa-star text-success"></i></label>
+  								<label for="stars-rating-3"><i class="fa fa-star text-success"></i></label>
+  								<label for="stars-rating-2"><i class="fa fa-star text-warning"></i></label>
+  								<label for="stars-rating-1"><i class="fa fa-star text-warning"></i></label>
+  							</div>
+  						</div>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  	<!-- end product -->
+  </div>
+  <div class="col-xs-12 col-md-6">
+  	<!-- First product box start here-->
+  	<div class="prod-info-main prod-wrap clearfix">
+  		<div class="row">
+  				<div class="col-md-5 col-sm-12 col-xs-12">
+  					<div class="product-image">
+  						<img src="man-city-18-away-pi-european-front_2.jpg" alt="194x228" class="img-responsive">
+  						<span class="tag2 hot">
+  							HOT
+  						</span>
+  					</div>
+  				</div>
+  				<div class="col-md-7 col-sm-12 col-xs-12">
+  				<div class="product-deatil">
+  						<h5 class="name">
+  							<a href="#">
+  							2018-19 Manchester City Away Shirt <span>Football</span>
+  							</a>
+  						</h5>
+  						<p class="price-container">
+  							<span>£59.99</span>
+  						</p>
+  						<span class="tag1"></span>
+  				</div>
+  				<div class="description">
+  					<p>A Short product description here </p>
+  				</div>
+  				<div class="product-info smart-form">
+  					<div class="row">
+  						<div class="col-md-12">
+  						 <a href="#0" class="cd-add-to-cart js-cd-add-to-cart" data-price="25.99">Add To Cart</a>
+
+  						</div>
+  						<div class="col-md-12">
+  							<div class="rating">Rating:
+  								<label for="stars-rating-5"><i class="fa fa-star text-success"></i></label>
+  								<label for="stars-rating-4"><i class="fa fa-star text-success"></i></label>
+  								<label for="stars-rating-3"><i class="fa fa-star text-success"></i></label>
+  								<label for="stars-rating-2"><i class="fa fa-star text-warning"></i></label>
+  								<label for="stars-rating-1"><i class="fa fa-star text-warning"></i></label>
+  							</div>
+  						</div>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  	<!-- end product -->
+  </div>
+  <div class="col-xs-12 col-md-6">
+  <!-- First product box start here-->
+  	<div class="prod-info-main prod-wrap clearfix">
+  		<div class="row">
+  				<div class="col-md-5 col-sm-12 col-xs-12">
+  					<div class="product-image">
+  						<img src="man-city-98-away-_1_4_1_1.jpg" alt="194x228" class="img-responsive">
+  						<span class="tag3 special">
+  							Special
+  						</span>
+  					</div>
+  				</div>
+  				<div class="col-md-7 col-sm-12 col-xs-12">
+  				<div class="product-deatil">
+  						<h5 class="name">
+  							<a href="#">
+  								1998-99 Manchester City Away Shirt <span>Football</span>
+  							</a>
+  						</h5>
+  						<p class="price-container">
+  							<span>£299</span>
+  						</p>
+  						<span class="tag1"></span>
+  				</div>
+  				<div class="description">
+  					<p>A Short product description here </p>
+  				</div>
+  				<div class="product-info smart-form">
+  					<div class="row">
+  						<div class="col-md-12">
+  							 <a href="#0" class="cd-add-to-cart js-cd-add-to-cart" data-price="25.99">Add To Cart</a>
+
+  						</div>
+  						<div class="col-md-12">
+  							<div class="rating">Rating:
+  								<label for="stars-rating-5"><i class="fa fa-star text-success"></i></label>
+  								<label for="stars-rating-4"><i class="fa fa-star text-success"></i></label>
+  								<label for="stars-rating-3"><i class="fa fa-star text-success"></i></label>
+  								<label for="stars-rating-2"><i class="fa fa-star text-warning"></i></label>
+  								<label for="stars-rating-1"><i class="fa fa-star text-warning"></i></label>
+  							</div>
+  						</div>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  	<!-- end product -->
+  </div>
+  <div class="col-xs-12 col-md-6">
+  	<!-- First product box start here-->
+  	<div class="prod-info-main prod-wrap clearfix">
+  		<div class="row">
+  				<div class="col-md-5 col-sm-12 col-xs-12">
+  					<div class="product-image">
+  						<img src="man-city-15-away_1_1_1_1_3_1_1_1_1.jpg" alt="194x228" class="img-responsive">
+  						<span class="tag2 sale">
+  							SALE
+  						</span>
+  					</div>
+  				</div>
+  				<div class="col-md-7 col-sm-12 col-xs-12">
+  				<div class="product-deatil">
+  						<h5 class="name">
+  							<a href="#">
+  								2015-16 Manchester City Away Shirt <span>Football</span>
+  							</a>
+  						</h5>
+  						<p class="price-container">
+  							<span>£39.99</span>
+  						</p>
+  						<span class="tag1"></span>
+  				</div>
+  				<div class="description">
+  					<p>A Short product description here </p>
+  				</div>
+  				<div class="product-info smart-form">
+  					<div class="row">
+  						<div class="col-md-12">
+  						 <a href="#0" class="cd-add-to-cart js-cd-add-to-cart" data-price="25.99">Add To Cart</a>
+
+  						</div>
+  						<div class="col-md-12">
+  							<div class="rating">Rating:
+  								<label for="stars-rating-5"><i class="fa fa-star text-success"></i></label>
+  								<label for="stars-rating-4"><i class="fa fa-star text-success"></i></label>
+  								<label for="stars-rating-3"><i class="fa fa-star text-success"></i></label>
+  								<label for="stars-rating-2"><i class="fa fa-star text-warning"></i></label>
+  								<label for="stars-rating-1"><i class="fa fa-star text-warning"></i></label>
+  							</div>
+  						</div>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  	<!-- end product -->
+
+
+
+  </div>
+
+
+  <div class="col-xs-12 col-md-6">
+  	<!-- First product box start here-->
+  	<div class="prod-info-main prod-wrap clearfix">
+  		<div class="row">
+  				<div class="col-md-5 col-sm-12 col-xs-12">
+  					<div class="product-image">
+  						<img src="man-city-16-away_2.jpg" alt="194x228" class="img-responsive">
+  						<span class="tag2 sale">
+  							SALE
+  						</span>
+  					</div>
+  				</div>
+  				<div class="col-md-7 col-sm-12 col-xs-12">
+  				<div class="product-deatil">
+  						<h5 class="name">
+  							<a href="#">
+  								2016-17 Manchester City Away Shirt <span>Football</span>
+  							</a>
+  						</h5>
+  						<p class="price-container">
+  							<span>£29.99</span>
+  						</p>
+  						<span class="tag1"></span>
+  				</div>
+  				<div class="description">
+  					<p>A Short product description here </p>
+  				</div>
+  				<div class="product-info smart-form">
+  					<div class="row">
+  						<div class="col-md-12">
+  						 <a href="#0" class="cd-add-to-cart js-cd-add-to-cart" data-price="25.99">Add To Cart</a>
+
+  						</div>
+  						<div class="col-md-12">
+  							<div class="rating">Rating:
+  								<label for="stars-rating-5"><i class="fa fa-star text-success"></i></label>
+  								<label for="stars-rating-4"><i class="fa fa-star text-success"></i></label>
+  								<label for="stars-rating-3"><i class="fa fa-star text-success"></i></label>
+  								<label for="stars-rating-2"><i class="fa fa-star text-warning"></i></label>
+  								<label for="stars-rating-1"><i class="fa fa-star text-warning"></i></label>
+  							</div>
+  						</div>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  	<!-- end product -->
+
+
+
+  </div>
+
+  <div class="col-xs-12 col-md-6">
+  	<!-- First product box start here-->
+  	<div class="prod-info-main prod-wrap clearfix">
+  		<div class="row">
+  				<div class="col-md-5 col-sm-12 col-xs-12">
+  					<div class="product-image">
+  						<img src="man-city-90-away_6_2_1.jpg" alt="194x228" class="img-responsive">
+  						<span class="tag2 sale">
+  							SALE
+  						</span>
+  					</div>
+  				</div>
+  				<div class="col-md-7 col-sm-12 col-xs-12">
+  				<div class="product-deatil">
+  						<h5 class="name">
+  							<a href="#">
+  							1990-92 Manchester City Away Shirt<span>Football</span>
+  							</a>
+  						</h5>
+  						<p class="price-container">
+  							<span>£249.99</span>
+  						</p>
+  						<span class="tag1"></span>
+  				</div>
+  				<div class="description">
+  					<p>A Short product description here </p>
+  				</div>
+  				<div class="product-info smart-form">
+  					<div class="row">
+  						<div class="col-md-12">
+  					 <a href="#0" class="cd-add-to-cart js-cd-add-to-cart" data-price="25.99">Add To Cart</a>
+
+  						</div>
+  						<div class="col-md-12">
+  							<div class="rating">Rating:
+  								<label for="stars-rating-5"><i class="fa fa-star text-success"></i></label>
+  								<label for="stars-rating-4"><i class="fa fa-star text-success"></i></label>
+  								<label for="stars-rating-3"><i class="fa fa-star text-success"></i></label>
+  								<label for="stars-rating-2"><i class="fa fa-star text-warning"></i></label>
+  								<label for="stars-rating-1"><i class="fa fa-star text-warning"></i></label>
+  							</div>
+  						</div>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  	<!-- end product -->
+
+
+
+  </div>
+  </div>
+
+  <div class="cd-cart cd-cart--empty js-cd-cart">
+  	<a href="#0" class="cd-cart__trigger text-replace">
+  		Cart
+  		<ul class="cd-cart__count">  <!-- cart items count -->
+  			<li>0</li>
+  			<li>0</li>
+  		</ul> <!-- .cd-cart__count -->
+  	</a>
+
+  	<div class="cd-cart__content">
+  		<div class="cd-cart__layout">
+  			<header class="cd-cart__header">
+  				<h2>Cart</h2>
+  				<span class="cd-cart__undo">Item removed. <a href="#0">Undo</a></span>
+  			</header>
+
+  			<div class="cd-cart__body">
+  				<ul>
+  					<!-- products added to the cart will be inserted here using JavaScript -->
+  				</ul>
+  			</div>
+
+  			<footer class="cd-cart__footer">
+  				<a href="Checkout.html" class="cd-cart__checkout">
+            <em>Checkout - $<span>0</span>
+              <svg class="shopping-basket" viewBox="0 0 24 24"><g fill="none" stroke="currentColor"><line stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x1="3" y1="12" x2="21" y2="12"/><polyline stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="15,6 21,12 15,18 "/></g>
+              </svg>
+            </em>
+          </a>
+  			</footer>
+  		</div>
+  	</div> <!-- .cd-cart__content -->
+  </div> <!-- cd-cart -->
+
+<footer class="footer">
+  <div class="footer__addr">
+    <h1 class="footer__logo"> <img src="retro shirts logo.png"  alt=""/> </h1>
+
+    <h2>Contact</h2>
+
+    <address>
+      <i class="fa fa-location-arrow red"></i>  Location
+      Classic Football Shirts Co Ltd
+      Edwin House, Edwin Road
+      Manchester
+      M11 3ER, UK<br> <i class="fa fa-phone"></i>Telephone:++44(0)161 509 5814
+
+      <a class="footer__btn" href="RetroShirts@gmail.com">
+      <i class="fa fa-envelope"></i> &nbsp; <p class="Email">Email Us </p>&nbsp; RetroShirts@gmail.com </a>
+    </address>
+  </div>
+
+  <ul class="footer__nav">
+    <li class="nav__item">
+      <h2 class="nav__title">Media</h2>
+
+      <ul class="nav__ul">
+        <li>
+          <a href="#">Online</a>
+        </li>
+
+        <li>
+          <a href="#">Print</a>
+        </li>
+
+        <li>
+          <a href="#">Alternative Ads</a>
+        </li>
+      </ul>
+    </li>
+
+    <li class="nav__item nav__item--extra">
+      <h2 class="nav__title">Technology</h2>
+
+      <ul class="nav__ul nav__ul--extra">
+        <li>
+          <a href="#">Hardware Design</a>
+        </li>
+
+        <li>
+          <a href="#">Software Design</a>
+        </li>
+
+        <li>
+          <a href="#">Digital Signage</a>
+        </li>
+
+        <li>
+          <a href="#">Automation</a>
+        </li>
+
+        <li>
+          <a href="#">Artificial Intelligence</a>
+        </li>
+
+        <li>
+          <a href="#">IoT</a>
+        </li>
+      </ul>
+    </li>
+
+    <li class="nav__item">
+      <h2 class="nav__title">Legal</h2>
+
+      <ul class="nav__ul">
+        <li>
+          <a href="#">Privacy Policy</a>
+        </li>
+
+        <li>
+          <a href="#">Terms of Use</a>
+        </li>
+
+        <li>
+          <a href="#">Sitemap</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+
+  <div class="legal">
+    <p>&copy; 2019 Something. All rights reserved.</p>
+
+    <div class="legal__links">
+      <span>Made with <span class="heart">♥</span> remotely from Anywhere</span>
+    </div>
+  </div>
+</footer>
+
+<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="addtocart.js"></script>
+<script type="text/javascript" src="addtocartutil.js"></script>
+</body>
+</html>
